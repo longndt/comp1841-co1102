@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <!-- 
+   destination.php : page to be redirected after we click button
+   ?x=3: x is variable's name, 3 is
+   variable's value
+   => we use variable in URL to send
+   data from file A to file B
+   -->
+   <button>
+      <a href="destination.php?year=2023" style="text-decoration: none; text-transform: uppercase;">Send year</a>
+   </button>
+   <button>
+      <a href="destination.php?city=hanoi" style="text-decoration: none; text-transform: uppercase;">Send city</a>
+   </button>
+   <button>
+      <a href="destination.php?year=2023&city=hanoi&country=vietnam" style="text-decoration: none; text-transform: uppercase;">Send everything</a>
+   </button>
+   
+</body>
+
+</html>

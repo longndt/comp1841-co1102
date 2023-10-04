@@ -1,14 +1,21 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#result{
-    background-color: lightgreen;
-}
-#form{
-    background-color: rgb(210, 198, 183);
+body {
+   background-color: darkturquoise;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 150%;
 }
 
-#error{
-    background-color: rgb(183, 181, 181);
-    color: red;
+.button {
+   font-weight: bold;
+   background-color: chocolate;
+   color: yellow;
+}
+
+.number {
+   background-color:gold;
+}
+
+h1 {
+   color: blueviolet;
+   border: 3px solid blue;
+   background-color: antiquewhite;
 }

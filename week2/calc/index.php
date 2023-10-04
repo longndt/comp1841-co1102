@@ -26,13 +26,20 @@ else{
 				$result = $val1 * $val2;
 				break;
 			case "div":
-				$result = $val1 / $val2;
-				break;
+				//check the case value 2 (denominator)
+				if ($val2 == 0) {
+				  //redirect the page
+				  header("Location: templates/error1.html.php");
+				  break;
+				}
+				else
+				  $result = $val1 / $val2;
+				  break;
 		}
 		$output = "Calculation result: " . $result;
 
 		//include your result template here
-		include 'templates/result.html.php';
+			include 'templates/result.html.php';
 	}
 	else {
 		//case 1: user do not select any calculation

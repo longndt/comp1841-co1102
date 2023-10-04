@@ -4,16 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Error</title>
-   <style>
-      body {
-         background-color:aqua;
-      }
-      h1 {
-         background-color: yellow;
-         color: red;
-         border: 3px solid blue;
-      }
-   </style>
+   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
    <h1>

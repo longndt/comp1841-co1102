@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 18, 2023 at 02:44 AM
+-- Generation Time: Oct 19, 2023 at 02:47 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -31,7 +31,7 @@ CREATE TABLE `joke` (
   `id` int(11) NOT NULL,
   `joketext` text NOT NULL,
   `jokedate` date NOT NULL,
-  `image` varchar(30) NOT NULL
+  `image` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -39,9 +39,9 @@ CREATE TABLE `joke` (
 --
 
 INSERT INTO `joke` (`id`, `joketext`, `jokedate`, `image`) VALUES
-(1, 'matt joke 1', '2023-10-02', 'chicken.png'),
-(3, 'my next joke', '2023-10-16', 'doctor.png'),
-(4, 'some chicken joke', '2023-10-24', 'knocker.jpg');
+(1, 'this is just a joke', '2023-10-02', 'chicken.png'),
+(4, 'just another joke', '2023-10-05', 'doctor.png'),
+(5, 'new joke', '2023-10-27', 'knocker.jpg');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +61,7 @@ ALTER TABLE `joke`
 -- AUTO_INCREMENT for table `joke`
 --
 ALTER TABLE `joke`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

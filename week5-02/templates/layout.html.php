@@ -8,6 +8,7 @@
 </head>
 
 <body>
+   <!-- use same header & navigation for every webpage -->
    <header>
       <h1>Internet Joke Database</h1>
    </header>
@@ -15,12 +16,17 @@
       <ul>
          <li><a href="index.php">Home</a></li>
          <li><a href="jokes.php">jokes List</a></li>
+         <li><a href="addjoke.php">Add joke</a></li>
       </ul>
    </nav>
+
+   <!-- render different content for each page -->
    <main>
       <?= $output ?>
    </main>
-   <footer>&copy; IJDB 2023</footer>
+
+   <!-- use same footer for every webpage -->
+   <footer>Greenwich Vietnam - 2023</footer>
 </body>
 
 </html>

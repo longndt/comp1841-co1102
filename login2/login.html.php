@@ -5,4 +5,5 @@
    Password: <input type="password" name="password" id="" required>
    <br><br>
    <input type="submit" value="Login" name="login">
+   <a href="register.php">Register</a>
 </form>
